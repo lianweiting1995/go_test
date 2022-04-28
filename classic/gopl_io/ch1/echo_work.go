@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func Work() {
+func EchoWork() {
 	for index, arg := range os.Args[0:] {
 		fmt.Println(index, arg)
 	}

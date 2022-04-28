@@ -9,10 +9,11 @@ import (
 )
 
 func main() {
-	//ch1_func()
+	//ch1_echo()
+	ch1_dup()
 }
 
-func ch1_func() {
+func ch1_echo() {
 	// classic/gopl_io/ch1/echo1
 	fmt.Println("gopl_io/ch1/echo1:")
 	echo1.Echo()
@@ -24,5 +25,17 @@ func ch1_func() {
 	echo3.Echo()
 	// classic/gopl_io/ch1
 	fmt.Println("gopl_io/ch1:")
-	ch1.Work()
+	ch1.EchoWork()
+}
+
+func ch1_dup() {
+	// classic/gopl_io/ch1/dup1
+	// fmt.Println("classic/gopl_io/ch1/dup1:")
+	// dup1.Dup()
+	//fmt.Println("classic/gopl_io/ch1/dup2:")
+	//dup2.Dup()
+	//fmt.Println("classic/gopl_io/ch1/dup3:")
+	//dup3.Dup()
+	fmt.Println("classic/gopl_io/dup_word:")
+	ch1.Dup()
 }
