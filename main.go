@@ -6,11 +6,13 @@ import (
 	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1/echo1"
 	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1/echo2"
 	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1/echo3"
+	"os"
 )
 
 func main() {
 	//ch1_echo()
-	ch1_dup()
+	//ch1_dup()
+	lissajous1()
 }
 
 func ch1_echo() {
@@ -38,4 +40,9 @@ func ch1_dup() {
 	//dup3.Dup()
 	fmt.Println("classic/gopl_io/dup_word:")
 	ch1.Dup()
+}
+
+func lissajous1() {
+	//lissajous12.Lissajous(os.Stdout)
+	ch1.Lissajous(os.Stdout)
 }
