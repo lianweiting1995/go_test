@@ -2,17 +2,22 @@ package main
 
 import (
 	"fmt"
+	"os"
+
 	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1"
 	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1/echo1"
 	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1/echo2"
 	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1/echo3"
-	"os"
+	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1/fetch_all1"
+	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1/server1"
 )
 
 func main() {
 	//ch1_echo()
 	//ch1_dup()
-	lissajous1()
+	//lissajous1()
+	// fetch()
+	server()
 }
 
 func ch1_echo() {
@@ -45,4 +50,14 @@ func ch1_dup() {
 func lissajous1() {
 	//lissajous12.Lissajous(os.Stdout)
 	ch1.Lissajous(os.Stdout)
+}
+
+func fetch() {
+	//fetch1.Fetch()
+	//ch1.FetchWork()
+	fetch_all1.FetchAll1()
+}
+
+func server() {
+	server1.Server()
 }

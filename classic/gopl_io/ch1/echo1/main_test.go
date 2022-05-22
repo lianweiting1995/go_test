@@ -1,7 +1,10 @@
 package echo1
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func Test(t *testing.T) {
-	main()
+	fmt.Println(11)
 }
