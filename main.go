@@ -8,8 +8,8 @@ import (
 	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1/echo1"
 	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1/echo2"
 	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1/echo3"
-	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1/fetch_all1"
-	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1/server1"
+	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1/fetch1"
+	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1/server3"
 )
 
 func main() {
@@ -53,11 +53,13 @@ func lissajous1() {
 }
 
 func fetch() {
-	//fetch1.Fetch()
+	fetch1.Fetch()
 	//ch1.FetchWork()
-	fetch_all1.FetchAll1()
+	// fetch_all1.FetchAll1()
 }
 
 func server() {
-	server1.Server()
+	// server1.Server()
+	// server2.Server()
+	server3.Server()
 }

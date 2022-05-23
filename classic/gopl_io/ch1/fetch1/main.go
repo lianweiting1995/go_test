@@ -20,6 +20,6 @@ func Fetch() {
 			fmt.Fprintf(os.Stdout, "fetch: reading%s:%v\n", url, err)
 			os.Exit(1)
 		}
-		fmt.Println("%s", string(b))
+		fmt.Printf("%s\n", string(b))
 	}
 }
