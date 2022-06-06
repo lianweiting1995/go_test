@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/lianweiting1995/go_test/ch3"
 	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1"
 	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1/echo1"
 	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1/echo2"
@@ -17,7 +18,8 @@ func main() {
 	//ch1_dup()
 	//lissajous1()
 	// fetch()
-	server()
+	// server()
+	mandelbrotServer()
 }
 
 func ch1_echo() {
@@ -62,4 +64,8 @@ func server() {
 	// server1.Server()
 	// server2.Server()
 	server3.Server()
+}
+
+func mandelbrotServer() {
+	ch3.HttpServer()
 }

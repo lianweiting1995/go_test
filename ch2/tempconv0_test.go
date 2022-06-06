@@ -23,3 +23,10 @@ func TestTempconv1(t *testing.T) {
 	fmt.Printf("%g\n", c)
 	fmt.Println(float64(c))
 }
+
+func TestFmt(t *testing.T) {
+	o := 0666
+	fmt.Printf("%d %[1]o %#[1]o\n", o)
+	x := int64(0xdeabeff)
+	fmt.Printf("%d %[1]x %#[1]X\n", x)
+}
