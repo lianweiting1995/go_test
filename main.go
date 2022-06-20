@@ -5,6 +5,7 @@ import (
 	"os"
 
 	"github.com/lianweiting1995/go_test/ch3"
+	"github.com/lianweiting1995/go_test/ch4"
 	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1"
 	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1/echo1"
 	"github.com/lianweiting1995/go_test/classic/gopl_io/ch1/echo2"
@@ -19,7 +20,10 @@ func main() {
 	//lissajous1()
 	// fetch()
 	// server()
-	mandelbrotServer()
+	// mandelbrotServer()
+	// dedup()
+	// charcount()
+	scanword()
 }
 
 func ch1_echo() {
@@ -68,4 +72,16 @@ func server() {
 
 func mandelbrotServer() {
 	ch3.HttpServer()
+}
+
+func dedup() {
+	ch4.Dedup()
+}
+
+func charcount() {
+	ch4.CharCount()
+}
+
+func scanword() {
+	ch4.Scanword()
 }
