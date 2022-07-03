@@ -23,7 +23,8 @@ func main() {
 	// mandelbrotServer()
 	// dedup()
 	// charcount()
-	scanword()
+	// scanword()
+	issue()
 }
 
 func ch1_echo() {
@@ -84,4 +85,8 @@ func charcount() {
 
 func scanword() {
 	ch4.Scanword()
+}
+
+func issue() {
+	ch4.IssueFunc()
 }
