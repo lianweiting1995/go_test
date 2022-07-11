@@ -18,13 +18,15 @@ func main() {
 	//ch1_echo()
 	//ch1_dup()
 	//lissajous1()
-	// fetch()
+	//fetch()
 	// server()
 	// mandelbrotServer()
 	// dedup()
 	// charcount()
 	// scanword()
-	issue()
+	// issue()
+	//issueAndTemplate()
+	findLink()
 }
 
 func ch1_echo() {
@@ -89,4 +91,12 @@ func scanword() {
 
 func issue() {
 	ch4.IssueFunc()
+}
+
+func issueAndTemplate() {
+	ch4.InitTemplate()
+}
+
+func findLink() {
+	ch4.FindLink()
 }
